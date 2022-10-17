@@ -1,25 +1,35 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "",
+  "description": "This application is a web text editor.  This application is designed and set up to be used as a PWA (Progressive Web Application).  You can enter any notes, code, or thoughts.  The content is saved in local storage as well as indexDB so that it can accessed while offline.  The install button at the top of the page will set up the application as a PWA and prompt the user to install the application.  Once the brower and PWA have been closed, the content of the editor remains on the page.",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server nodemon server.js --ignore client",
+    "build": "cd client && npm install",
+    "install": "concurrently \"cd client && npm install\" \"cd server && npm install\" ",
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
-  }
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.20",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Preranashukla/PWA-Text-Editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Preranashukla/PWA-Text-Editor/issues"
+  },
+  "homepage": "https://github.com/Preranashukla/PWA-Text-Editor#readme"
 }
