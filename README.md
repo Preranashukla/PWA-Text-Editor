@@ -46,10 +46,10 @@ THEN I should have proper build scripts for a webpack application
 This application uses webpack for script and style sheet bundling.  IndexBD is used for offline data storage.  It uses babel, webpack's pwa-manifest, and the workbox webpack plug-in for the service worker.  All the script is written in JavaScript, and the rest of the front end uses HTML and CSS.
 
 ## Review
-To review the code, please go to the [Repository](https://github.com/jstndhouk/Text-Editor-PWA-).
+To review the code, please go to the [Repository](https://github.com/Preranashukla/PWA-Text-Editor.git).
 
 ## Deploy
-The application is deployed to Heroku and can be found [Here](https://just-another-text-editor-jh.herokuapp.com/).
+The application is deployed to Heroku and can be found [Here](https://mypwa-text-editor.herokuapp.com/).
 
 ## Screenshots
 See below screenshots of different aspects of the application:
