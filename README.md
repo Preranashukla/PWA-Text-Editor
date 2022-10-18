@@ -1,4 +1,4 @@
-# Text-Editor-PWA-
+# PWA-Text-Editor
 
 ## Description
 This application is a web text editor.  This application is designed and set up to be used as a PWA (Progressive Web Application).  You can enter any notes, code, or thoughts.  The content is saved in local storage as well as indexDB so that it can accessed while offline.  The install button at the top of the page will set up the application as a PWA and prompt the user to install the application.  Once the brower and PWA have been closed, the content of the editor remains on the page.
@@ -46,16 +46,7 @@ THEN I should have proper build scripts for a webpack application
 This application uses webpack for script and style sheet bundling.  IndexBD is used for offline data storage.  It uses babel, webpack's pwa-manifest, and the workbox webpack plug-in for the service worker.  All the script is written in JavaScript, and the rest of the front end uses HTML and CSS.
 
 ## Review
-To review the code, please go to the [Repository](https://github.com/jstndhouk/Text-Editor-PWA-).
+To review the code, please go to the [Repository](https://github.com/Preranashukla/PWA-Text-Editor.git).
 
 ## Deploy
-The application is deployed to Heroku and can be found [Here](https://just-another-text-editor-jh.herokuapp.com/).
-
-## Screenshots
-See below screenshots of different aspects of the application:
-
-![Web Application](./client/src/images/webApplication.PNG)
-
-![Progressive Web Application](./client/src/images/progressiveWebApplication.PNG)
-
-![Installed Application Desktop Icon](./client/src/images/icon.PNG)
+The application is deployed to Heroku and can be found [Here](https://mypwa-text-editor.herokuapp.com/).
