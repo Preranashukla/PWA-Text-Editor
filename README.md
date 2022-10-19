@@ -9,3 +9,6 @@ Webpack, bundle
 
 ## Deploy
 The application is deployed to Heroku and can be found [Here](https://mypwa-app.herokuapp.com/).
+
+## Screenshot
+[Local screen](./screenshot.png)
